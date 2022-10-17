@@ -41,7 +41,7 @@ export default hopeTheme({
   breadcrumb: true,
   breadcrumbIcon: true,
   headerDepth: 4,
-  navbarAutoHide: "always",
+  // navbarAutoHide: "always",
 
   plugins: {
     // If you don't need comment feature, you can remove following option

@@ -1,7 +1,6 @@
 ---
 title: 00.环境搭建
-# home: true
 index: false
 ---
-### javascript
-dd
+## 目录
+- [00.WSL安装与使用](00.WSL安装与使用.md)
