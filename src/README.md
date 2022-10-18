@@ -13,7 +13,7 @@ features:
   - title: 00.开发环境搭建
     icon: windows
     # details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: 00.环境搭建/
+    link: 00.Windows10开发环境搭建/
 ---
 
 ## 笔记目录
@@ -21,7 +21,9 @@ features:
 - [00.Windows10开发环境搭建](00.Windows10开发环境搭建/)
 
    - [00.WSL安装与使用](00.Windows10开发环境搭建/00.WSL安装与使用.md)
-   - [01.]()
+   - [01.zsh的安装与使用](00.Windows10开发环境搭建/01.zsh的安装与使用.md)
+   - [02.Git的安装与使用](00.Windows10开发环境搭建/02.Git的安装与使用.md)
+   - [03.VSCode的安装与使用](00.Windows10开发环境搭建/03.VSCode的安装与使用.md)
 
 ## 💡 打赏
 :::tip tips
