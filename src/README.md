@@ -7,7 +7,7 @@ tagline: 前端自学笔记
 icon: home
 actions:
   - text: 💡 打赏
-    link: /index.html#赞助
+    link: /index.html#💡-打赏
     type: primary
 features:
   - title: 00.开发环境搭建
@@ -27,5 +27,5 @@ features:
 
 ## 💡 打赏
 :::tip tips
-创造不易，给口饭吃
+创作不易，给口饭吃
 :::
