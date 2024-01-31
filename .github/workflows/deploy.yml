@@ -27,13 +27,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
+      
+      - name: Install pnmp
+        run: "corepack enable && corepack prepare pnpm@latest --activate"
 
       - name: Build step
-        run: "npm install && npm run build" # 📝 Update the build command(s) if necessary
+        run: "npm install && pnpm docs:build" # 📝 Update the build command(s) if necessary
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "funny-shrimp-88"
-          entrypoint: "index.js" # 📝 Update the entrypoint if necessary
-          root: "." # 📝 Update the root if necessary
+          entrypoint: "index.html" # 📝 Update the entrypoint if necessary
+          root: "dist" # 📝 Update the root if necessary
