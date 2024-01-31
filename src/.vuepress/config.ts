@@ -6,4 +6,5 @@ export default defineUserConfig({
   lang: "zh-CN",
   theme,
   shouldPrefetch: false,
+  dest: "dist",
 });
