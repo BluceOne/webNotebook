@@ -33,12 +33,11 @@ jobs:
         run: "corepack enable && corepack prepare pnpm@latest --activate"
 
       - name: Build step
-        run: "npm install && pnpm docs:build" # 📝 Update the build command(s) if necessary
+        run: "npm install && pnpm build" # 📝 Update the build command(s) if necessary
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "funny-shrimp-88"
-          source: "dist"
-          # entrypoint: "index.js" # 📝 Update the entrypoint if necessary
-          # root: "dist" # 📝 Update the root if necessary
+          entrypoint: "index.js" # 📝 Update the entrypoint if necessary
+          root: "dist" # 📝 Update the root if necessary
