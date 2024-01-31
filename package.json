@@ -6,8 +6,6 @@
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build src",
-    "compile": "deno compile --allow-all server.ts",
-    "build": "npm run docs:build && npm run compile && mv server.js dist/index.js",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src"
   },
