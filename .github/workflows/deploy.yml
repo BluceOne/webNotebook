@@ -22,6 +22,7 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+      
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -38,5 +39,6 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "funny-shrimp-88"
-          entrypoint: "index.html" # 📝 Update the entrypoint if necessary
-          root: "dist" # 📝 Update the root if necessary
+          source: "dist"
+          # entrypoint: "index.js" # 📝 Update the entrypoint if necessary
+          # root: "dist" # 📝 Update the root if necessary
